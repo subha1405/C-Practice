@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char a[50],b[50];
+clrscr();
+printf("\nEnter the source string");
+scanf("%d",a);
+printf("\nEnter the Destination String");
+scanf("%d",b);
+strcpy(b,a);
+printf("\nCopied String=%s",b);
+getch();
+}

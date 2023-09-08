@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+int array[100],n,c,swap,d;
+clrscr();
+printf("Enter the number of elements\n");
+scanf("%d",&n);
+printf("Enter %d integers",n);
+for(c=0;c<n;c++)
+{
+scanf("%d",&array[c]);
+}
+for(c=0;c<n-1;c++)
+{
+for(d=0;d<n-1-c;d++)
+{
+if(array[d]>array[d+1])
+{
+swap=array[d];
+array[d]=array[d+1];
+array[d+1]=swap;
+}
+}
+}
+printf("\nAfter sorting");
+for(c=0;c<n;c++)
+{
+printf("%d\t",array[c]);
+}
+getch();
+}
+

@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main()
+{
+void calculator();
+}
+void calculator()
+{
+int a,b,sum,product,diff;
+float divide;
+printf("\nEnter two numbers");
+scanf("%d%d",&a,&b);
+switch()
+{
+Case 1:
+       sum=a+b;
+       printf("\nSum of two numbers = %d",sum);
+       break;
+Case 2:
+       product=a*b;
+       printf("\nProduct of the two numbers = %d",product);
+       break;
+Case 3:
+      divide=a/b;
+      printf("\nDivision of two numbers = %f",divide);
+      break;
+Case 4:
+      diff=a-b;
+      printf("\nDifference of two numbers=%d",diff);
+      break;
+default:
+      printf("\nThe value is zero");
+      break;
+}
