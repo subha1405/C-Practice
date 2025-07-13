@@ -1,1 +1,9 @@
-https://www.programiz.com/online-compiler/4F3ihQhww9JZS
+#include <stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter two numbers");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+}
